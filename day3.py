@@ -4,7 +4,7 @@ print("Advent of Code 2025 - Day 3")
 
 lines = []
 
-with open(os.getcwd() + "\\Day03\\inputDay3.txt", "r") as input:
+with open(os.getcwd() + "\\inputDay3.txt", "r") as input:
     for line in input:
         lines = lines + [line[:-1]]
 
