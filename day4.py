@@ -1,3 +1,5 @@
+### Before running, convert . to 0 and @ to 1 in input data with find & replace
+
 import os
 
 print("Advent of Code 2025 - Day 4")
