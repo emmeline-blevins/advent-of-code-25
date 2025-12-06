@@ -8,7 +8,7 @@ unprocessed = []
 numbers = []
 operations = []
 
-with open(os.getcwd() + "\\Day06\\inputDay6.txt", "r") as input:
+with open(os.getcwd() + "\\inputDay6.txt", "r") as input:
     for line in input:
         unprocessed = unprocessed + [line[:-1]]
         splitLine = list(filter(lambda x: x != '', line[:-1].split(' ')))
